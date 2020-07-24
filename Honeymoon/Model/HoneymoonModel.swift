@@ -6,4 +6,10 @@
 //  Copyright © 2020 Shabbir Saifee. All rights reserved.
 //
 
-import Foundation
+import SwiftUI
+
+struct Destination {
+    var place: String
+    var country: String
+    var image: String
+}
