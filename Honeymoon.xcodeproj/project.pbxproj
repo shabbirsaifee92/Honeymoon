@@ -14,6 +14,7 @@
 		F1921CC524CB77DA0083BD18 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1921CC424CB77DA0083BD18 /* Preview Assets.xcassets */; };
 		F1921CC824CB77DA0083BD18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1921CC624CB77DA0083BD18 /* LaunchScreen.storyboard */; };
 		F1921CD024CB7A000083BD18 /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = F1921CCF24CB7A000083BD18 /* Sounds */; };
+		F1921CD224CB7C700083BD18 /* HoneymoonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1921CD124CB7C700083BD18 /* HoneymoonModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		F1921CC724CB77DA0083BD18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F1921CC924CB77DA0083BD18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F1921CCF24CB7A000083BD18 /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
+		F1921CD124CB7C700083BD18 /* HoneymoonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoneymoonModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				F1921CC624CB77DA0083BD18 /* LaunchScreen.storyboard */,
 				F1921CC924CB77DA0083BD18 /* Info.plist */,
 				F1921CC324CB77DA0083BD18 /* Preview Content */,
+				F1921CD124CB7C700083BD18 /* HoneymoonModel.swift */,
 			);
 			path = Honeymoon;
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1921CD224CB7C700083BD18 /* HoneymoonModel.swift in Sources */,
 				F1921CBC24CB77D90083BD18 /* AppDelegate.swift in Sources */,
 				F1921CBE24CB77D90083BD18 /* SceneDelegate.swift in Sources */,
 				F1921CC024CB77D90083BD18 /* ContentView.swift in Sources */,
