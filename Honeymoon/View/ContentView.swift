@@ -11,15 +11,21 @@ import SwiftUI
 struct ContentView: View {
     //MARK: - Properties
     @State private var showAlert: Bool = false
+    @State private var showGuide: Bool = false
+    @State private var showInfo: Bool = false
     
     //MARK: - Body
     var body: some View {
         VStack {
-            HeaderView()
+            HeaderView(showGuideView: $showGuide, showInfoView: $showInfo)
+            
             Spacer()
+            
             CardView(honeymoon: honeymoonData[2])
                 .padding()
+           
             Spacer()
+            
             FooterView(showBookingAlert: $showAlert)
         }
         .alert(isPresented: $showAlert) {
