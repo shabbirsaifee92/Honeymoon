@@ -19,6 +19,7 @@ struct ContentView: View {
             CardView(honeymoon: honeymoonData[2])
                 .padding()
             Spacer()
+            FooterView()
         }
     }
 }
